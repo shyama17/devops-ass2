@@ -3,7 +3,7 @@ GRANT ALL PRIVILEGES ON pucsd_students . * TO 'pucsd'@'localhost';
 
 USE pucsd_students;
 
-create table studentData (Name varchar(20) , Rollno int NOT NULL, Address varchar(50), Mobile_no int(10),PAN_No varchar(8), primary key(Rollno));
+create table studentData (Name varchar(20) , Rollno int NOT NULL, Address varchar(50), Mobile_no int,PAN_No varchar(8), primary key(Rollno));
 
 insert into studentData values('Shyama Agrahari',18101,'Varanasi',7517272930,'DFHY621Q');
 insert into studentData values('Muffy',18110,'Allahabad',9875132221,'YTG729K1');
